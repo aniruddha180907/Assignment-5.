@@ -1,0 +1,29 @@
+table
+{
+    width : 80%
+    margin : 20px auto;
+    border-collapse : collapse;
+    text-align : left;
+}
+
+th,td
+{
+    padding : 10px;
+    border : 1px solid #757575 ;
+}
+
+th
+{
+    background-color : #D9D9D9;
+}
+
+tr:nth-child(even)
+{
+    background-color : #DCD0FF;
+}
+
+caption
+{
+    font-size : 1.5em;
+    margin-bottom : 10px;
+}
